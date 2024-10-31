@@ -204,14 +204,14 @@ int main(void)
         cout << "| caja_03     | Embalajes para propóleo                        |" << endl;
         cout << "| caja_04     | Caja de cartón para 24 de propóleo             |" << endl;
         cout << "+-------------+------------------------------------------------+" << endl;
-        cout << " *Para copiar una recerencia usar CTRL + SHIFT + C                 " << endl;
+        cout << " *Para copiar una referencia usar CTRL + SHIFT + C                 " << endl;
         cout << " *Para pegar usar CTRL + SHIFT + V                                 " << endl;
 
         do
         {
             // Ask which reference is wanted to calculate the Q* from
-            cout << endl << BOLD << " -> ¿De qué item quieres la Q*? ";
-            cout << "(escribe el ID): " << RESET_COLOR;
+            cout << endl << BOLD << " -> ¿Sobre qué ítem calcular la Q*? ";
+            cout << "(escribir ID): " << RESET_COLOR;
             cin >> itemName;
             
             // Find reference
